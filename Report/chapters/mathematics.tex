@@ -1,0 +1,19 @@
+You may include additional packages for typesetting
+algorithms, mathematical formula or to define new operators and environments
+if and only if there is no conflict with the SeminarV2.cls
+file.
+
+It is recommended to avoid the numbering of equations when not
+necessary. When dealing with equation arrays, it could be
+necessary to label several (in)equalities. You can do it using the
+`$\backslash$stackrel' operator (see the SeminarV2.tex source file);
+example:
+
+\begin{eqnarray}
+c&=&|d|+|e|\nonumber\\
+&\stackrel{\text{(a)}}{=}&d+e\nonumber\\
+&\stackrel{\text{(b)}}{\geq}&\sqrt{f}\enspace,
+\end{eqnarray}
+\noindent where the equality (a) results from the fact that both
+$d$ and $e$ are positive while (b) comes from the definition of
+$f$.

@@ -1,0 +1,12 @@
+Please avoid using DVI2PDF or PS2PDF converters: some undesired
+shifting/scaling may occur when using these programs
+It is strongly recommended to use the DVIPS converters. 
+%
+Check that you have set the paper size to A4 (and NOT to letter) in your
+dvi2ps converter, in Adobe Acrobat if you use it, and in any printer driver
+that you could use.  You also have to disable the 'scale to fit paper' option
+of your printer driver.
+%
+In any case, please check carefully that the final size of the top and
+bottom margins is 5.2 cm and of the left and right margins is 4.4 cm.
+%t is your responsibility to verify this important requirement.  If these margin requirements and not fulfilled at the end of your file generation process, please use the commands at the beginning of the SeminarV2.tex file to correct them.  Otherwise, please do not modify these commands.
